@@ -109,6 +109,7 @@ textarea:not([rows]) {
 body {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
+  color: var(--Wenge-Brown);
 }
 
 /* background */
@@ -125,7 +126,8 @@ body {
 .card {
   background-color: var(--White);
   max-width: 692px;
-  padding: 32px;
+  padding: 40px;
+  margin: 4rem 0;
   border-radius: 24px;
 }
 
@@ -141,6 +143,7 @@ body {
   font-weight: 400;
   font-family: "Young Serif", serif;
   margin-bottom: 1rem;
+  color: var(--Dark-Charcoal);
 }
 
 .card__recipe-introduction p {
@@ -193,7 +196,43 @@ body {
 /* card divider */
 .card__divider {
   border: 1px solid var(--Eggshell);
-  margin: 3rem 0;
+  margin: 2.5rem 0;
 }
 
 /* instructions section */
+
+.card__list--color li::marker {
+  color: var(--Nutmeg);
+}
+
+/* nutrition section */
+
+.card__nutrition p {
+  margin-bottom: 1.5rem;
+}
+
+.card__divider--nutrition {
+  margin: 0;
+}
+
+.card__nutrition-table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.card__nutrition-table th,
+.card__nutrition-table td {
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--Eggshell);
+  font-weight: 400;
+}
+
+.card__nutrition-table th {
+  padding-left: 2rem;
+}
+
+.card__nutrition-table td {
+  font-weight: 700;
+  color: var(--Nutmeg);
+}

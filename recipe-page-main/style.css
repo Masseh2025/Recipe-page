@@ -188,3 +188,9 @@ body {
   font-size: 2rem;
   margin-bottom: 1rem;
 }
+
+/* card divider */
+.card__divider {
+  border: 1px solid var(--Eggshell);
+  margin: 3rem 0;
+}

@@ -161,15 +161,16 @@ body {
   color: var(--Dark-Raspberry);
 }
 
-.card__unordered-list {
+.card__list {
   margin: 0;
 }
 
-.card__unordered-list li {
+.card__list li {
+  padding-left: 1rem;
   margin-bottom: 0.5rem;
 }
 
-.card__unordered-list li:last-of-type {
+.card__list li:last-of-type {
   margin-bottom: 0;
 }
 
@@ -194,3 +195,5 @@ body {
   border: 1px solid var(--Eggshell);
   margin: 3rem 0;
 }
+
+/* instructions section */
